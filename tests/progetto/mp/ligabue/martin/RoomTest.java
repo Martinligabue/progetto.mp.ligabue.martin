@@ -1,69 +1,15 @@
 package progetto.mp.ligabue.martin;
 
-import static org.junit.Assert.*;
-
+import static org.assertj.core.api.Assertions.*;
 import org.junit.Test;
 
 public class RoomTest {
 
 	@Test
 	public void testObject() {
-		fail("Not yet implemented");
+		assertThat(5).isEqualTo(5);
+		assertThat(new Room()).isNotNull();
+		assertThat("abc").isNotEqualTo(123);
 	}
-
-	@Test
-	public void testGetClass() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testHashCode() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testEquals() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testClone() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testToString() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testNotify() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testNotifyAll() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testWait() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testWaitLong() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testWaitLongInt() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testFinalize() {
-		fail("Not yet implemented");
-	}
-
+	
 }
