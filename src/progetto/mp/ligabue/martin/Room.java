@@ -1,6 +1,6 @@
 package progetto.mp.ligabue.martin;
 
 public class Room {
-    private int number;
+    private int number=0;
     
 }
