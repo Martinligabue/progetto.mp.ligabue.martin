@@ -9,8 +9,7 @@ public class Wine implements Runner {
 		//remove last 4 characters from name
 		name = name.substring(0, name.length()-4);
 		//set name to binaryExe
-		Executable binaryExe = new Executable();
-		binaryExe.setName(name);
+		Executable binaryExe = new Executable(name);
 		
 
 	}

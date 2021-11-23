@@ -1,0 +1,9 @@
+proton-wine-protonge
+run?
+decorator: fsr, dlss, aco
+log?
+prendi un exe, rendilo eseguibile
+chain? if in list, if game, nothing then wine
+factory method
+
+https://refactoring.guru/design-patterns/factory-method/java/example
