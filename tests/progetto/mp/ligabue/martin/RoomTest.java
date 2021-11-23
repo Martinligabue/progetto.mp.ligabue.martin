@@ -11,5 +11,5 @@ public class RoomTest {
 		assertThat(new Room()).isNotNull();
 		assertThat("abc").isNotEqualTo(123);
 	}
-	
+
 }
