@@ -6,4 +6,30 @@ prendi un exe, rendilo eseguibile
 chain? if in list, if game, nothing then wine
 factory method
 
-https://refactoring.guru/design-patterns/factory-method/java/example
+template p23
+ma no meglio strategy obv
+p48
+
+- Factory Method
+– Abstract Factory
+– Static Factory Method
+– Singleton
+– Fluent Interface
+– Builder
+
+public class TimeSpan {
+ private TimeSpan(int seconds, int minutes) {
+ // ...
+ }
+ public static TimeSpan ofSeconds(int seconds) {
+ return new TimeSpan(seconds, 0);
+ }
+ public static TimeSpan ofMinutes(int minutes) {
+ return new TimeSpan(0, minutes);
+ }
+}
+p nice per builder
+
+● Si può combinare builder e static factory method:
+p76
+
