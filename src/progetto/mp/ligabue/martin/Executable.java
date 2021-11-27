@@ -8,12 +8,15 @@ public class Executable {
     private boolean FSR = false;
 
     private Executable(String name, boolean isGame, boolean ACO, boolean DLSS, boolean FSR) {
-        this.name = name;
-        this.isGame = isGame;
-        this.ACO = ACO;
+        this.name = name;       /* questo parametro è l'unico 
+        this.isGame = isGame;    * questo prob è opzionale
+        this.ACO = ACO;          */
         this.DLSS = DLSS;
         this.FSR = FSR;
     }
+    /*
+     * hee hee hee
+     */
 
     // nyeh
     public Executable withName(String name) {

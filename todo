@@ -1,6 +1,6 @@
 proton-wine-protonge
 run?
-decorator: fsr, dlss, aco
+//aaaaaaaa decorator: fsr, dlss, aco
 log?
 prendi un exe, rendilo eseguibile
 chain? if in list, if game, nothing then wine
@@ -49,3 +49,6 @@ iteratori
 – Per computazioni interne su collezioni si consiglia 
 invece di usare gli stream
 
+NO DECORATOR FA CAGARE
+
+sus
