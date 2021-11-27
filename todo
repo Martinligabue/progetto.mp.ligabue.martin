@@ -33,3 +33,19 @@ p nice per builder
 ● Si può combinare builder e static factory method:
 p76
 
+name necessario
+id, isaco etc opzionali
+
+aggiungi se vuoi performance o compatibilità
+
+
+un iterator per lista di programmi e forse anche filtrata 
+p29 iterator 
+
+In questo corso, a scopo didattico, si consiglia di 
+implementare degli iteratori
+– Anche dichiarando una proprio interfaccia per gli 
+iteratori
+– Per computazioni interne su collezioni si consiglia 
+invece di usare gli stream
+
