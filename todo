@@ -1,7 +1,8 @@
 proton-wine-protonge
 run?
-//aaaaaaaa decorator: fsr, dlss, aco
-log? facade obv, non dovrebbe esserci codice idk
+
+logheeheeeee? adapted
+facade obv, non dovrebbe esserci codice idk
 prendi un exe, rendilo eseguibile
 chain? if in list, if game, nothing then wine
 factory method
@@ -15,7 +16,7 @@ p48
 – Static Factory Method
 – Singleton
 – Fluent Interface
-– Builder
+* Builder
 
 public class TimeSpan {
  private TimeSpan(int seconds, int minutes) {
@@ -44,7 +45,7 @@ p29 iterator
 
 In questo corso, a scopo didattico, si consiglia di 
 implementare degli iteratori
-– Anche dichiarando una proprio interfaccia per gli 
+– Anche dichiarando una propria interfaccia per gli 
 iteratori
 – Per computazioni interne su collezioni si consiglia 
 invece di usare gli stream
