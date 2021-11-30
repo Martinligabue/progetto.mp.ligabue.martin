@@ -1,17 +1,16 @@
 package progetto.mp.ligabue.martin;
 
 public class Executable {
-	public Executable(ExecutableBuilder executableBuilder) {
-	}
+    public Executable(ExecutableBuilder executableBuilder) {
+    }
 
-	private String name;
-	private boolean isGame = false;
-	private boolean ACO = false;
-	private boolean DLSS = false;
-	private boolean FSR = false;
+    private String name;
+    private boolean isGame = false;
+    private boolean ACO = false;
+    private boolean DLSS = false;
+    private boolean FSR = false;
 
-	private static class ExecutableBuilder {     
-        
+    private static class ExecutableBuilder {
 
         private String name;
         private boolean isGame;
@@ -19,8 +18,8 @@ public class Executable {
         private boolean DLSS;
         private boolean FSR;
         private Integer age;
-        
-		public ExecutableBuilder(String name) {
+
+        public ExecutableBuilder(String name) {
             this.name = name;
 
         }
@@ -34,16 +33,26 @@ public class Executable {
             this.ACO = ACO;
             return this;
         }
+
         public Executable build() {
-            return new Executable(this);
+            return new Executable(this).isGame(isGame).withACO(ACO).withDLSS(DLSS).withFSR(FSR);
         }
+
         public ExecutableBuilder withAge(Integer age) {
             if (age <= 0)
-            throw new IllegalArgumentException("age must be positive: " + age);
+                throw new IllegalArgumentException("age must be positive: " + age);
             this.age = age;
             return this;
-           }
-           
+        }
+
+        public ExecutableBuilder withDLSS(boolean DLSS) {
+            this.DLSS = DLSS;
+            return this;
+        }
+
     }
 
+    public ExecutableBuilder isGame(boolean isGame2) {
+        return null;
+    }
 }

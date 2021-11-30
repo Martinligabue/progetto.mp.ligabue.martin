@@ -19,6 +19,10 @@ public class WineTest {
 	@Test
 	public void testRunExe() {
 		Executable exe=new Executable(ExecutableBuilder.getBuilder().setName("wine").setPath("/usr/bin/wine").setArgs(new String[]{"/home/martin/Desktop/test.exe"}).build());
+		Executable person = new Executable.ExecutableBuilder(1, "John")
+ .withAge(10)
+ .withAddress("an address")
+ .build()
 		exe.runExe();
 		assertThat(exe.getName(),is("Minecraft"));
 	}
