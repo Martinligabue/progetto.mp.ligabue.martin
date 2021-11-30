@@ -1,24 +1,26 @@
 package progetto.mp.ligabue.martin;
 
 public class Executable {
-    public Executable(ExecutableBuilder executableBuilder) {
-    }
+	public Executable(ExecutableBuilder executableBuilder) {
+	}
 
-    private String name;
-    private boolean isGame = false;
-    private boolean ACO = false;
-    private boolean DLSS = false;
-    private boolean FSR = false;
+	private String name;
+	private boolean isGame = false;
+	private boolean ACO = false;
+	private boolean DLSS = false;
+	private boolean FSR = false;
 
-    private static class ExecutableBuilder
-    {      
-        this.name = name;        
-        this.isGame = isGame;    
-        this.ACO = ACO;          
-        this.DLSS = DLSS;
-        this.FSR = FSR;
+	private static class ExecutableBuilder {     
+        
 
-        public ExecutableBuilder(String name) {
+        private String name;
+        private boolean isGame;
+        private boolean ACO;
+        private boolean DLSS;
+        private boolean FSR;
+        private Integer age;
+        
+		public ExecutableBuilder(String name) {
             this.name = name;
 
         }
