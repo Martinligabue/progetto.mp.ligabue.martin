@@ -16,4 +16,11 @@ public class WineTest {
 		fail("Not yet implemented");
 	}
 
+	@Test
+	public void testRunExe() {
+		Executable exe=new Executable("Minecraft.exe");
+		exe.runExe();
+		assertThat(exe.getName(),is("Minecraft"));
+	}
+
 }
