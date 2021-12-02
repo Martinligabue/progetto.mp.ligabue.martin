@@ -4,7 +4,15 @@ public class Executable {
 	public Executable(ExecutableBuilder executableBuilder) {
 	}
 
-	public String name;
+	public boolean isGame() {
+		return isGame;
+	}
+
+	public void setGame(boolean isGame) {
+		this.isGame = isGame;
+	}
+
+	private String name;
 	private boolean isGame = false;
 	private boolean ACO = false;
 	private boolean DLSS = false;
