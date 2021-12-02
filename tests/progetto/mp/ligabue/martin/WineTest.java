@@ -18,7 +18,8 @@ public class WineTest {
 
 	@Test
 	public void testRunExe() {
-		Executable exe=new Executable(ExecutableBuilder.getBuilder().setName("wine").setPath("/usr/bin/wine").setArgs(new String[]{"/home/martin/Desktop/test.exe"}).build());
+		Executable exe=new Executable(ExecutableBuilder.getBuilder().setName("wine").setPath("/usr/bin/wine")//path auto
+				.build());
 		Executable person = new Executable.ExecutableBuilder(1, "John")
  .withAge(10)
  .withAddress("an address")

@@ -55,3 +55,5 @@ NO DECORATOR FA CAGARE
 sus
 
 Executable exe=new Executable(ExecutableBuilder.getBuilder().setName("wine").setPath("/usr/bin/wine").setArgs(new String[]{"/home/martin/Desktop/test.exe"}).build());
+
+ma tipo un observer? con logger prob? o allo start
