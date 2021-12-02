@@ -4,12 +4,17 @@ public class Executable {
 	public Executable(ExecutableBuilder executableBuilder) {
 	}
 
-	public boolean isGame() {
-		return isGame;
-	}
-
 	public void setGame(boolean isGame) {
 		this.isGame = isGame;
+	}
+	public void getGame() {
+		return isGame;
+	}
+	public void getName() {
+		return name;
+	}
+	public void getPath() {
+		return path;
 	}
 
 	private String name;
