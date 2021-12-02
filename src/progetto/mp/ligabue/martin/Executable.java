@@ -52,7 +52,4 @@ public class Executable {
 
 	}
 
-	public ExecutableBuilder isGame(boolean isGame2) {
-		return null;
-	}
 }
