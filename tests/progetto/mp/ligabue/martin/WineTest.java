@@ -1,7 +1,6 @@
 package progetto.mp.ligabue.martin;
 
-import static org.junit.Assert.*;
-
+import static org.assertj.core.api.Assertions.*;
 import org.junit.Test;
 
 public class WineTest {
@@ -25,7 +24,7 @@ public class WineTest {
  .withAddress("an address")
  .build()
 		exe.runExe();
-		assertThat(exe.getName(),is("Minecraft"));
+		assertThat(exe.getName().is("Minecraft"));
 	}
 
 }
