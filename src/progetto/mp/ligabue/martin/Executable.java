@@ -1,6 +1,7 @@
 package progetto.mp.ligabue.martin;
 
 public class Executable {
+	//ID?
 	public Executable(ExecutableBuilder executableBuilder) {
 	}
 
@@ -73,6 +74,10 @@ public class Executable {
 			return this;
 		}
 
+	}
+
+	public String getName() {
+		return name;
 	}
 
 }
