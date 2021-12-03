@@ -12,10 +12,10 @@ ma no meglio strategy obv
 p48
 
 - Factory Method
-– Abstract Factory
-– Static Factory Method
-– Singleton
-– Fluent Interface
+��� Abstract Factory
+��� Static Factory Method
+��� Singleton
+��� Fluent Interface
 * Builder
 
 public class TimeSpan {
@@ -31,13 +31,13 @@ public class TimeSpan {
 }
 p nice per builder
 
-● Si può combinare builder e static factory method:
+��� Si pu�� combinare builder e static factory method:
 p76
 
 name necessario
 id, isaco etc opzionali
 
-aggiungi se vuoi performance o compatibilità
+aggiungi se vuoi performance o compatibilit��
 
 
 un iterator per lista di programmi e forse anche filtrata 
@@ -45,9 +45,9 @@ p29 iterator
 
 In questo corso, a scopo didattico, si consiglia di 
 implementare degli iteratori
-– Anche dichiarando una propria interfaccia per gli 
+��� Anche dichiarando una propria interfaccia per gli 
 iteratori
-– Per computazioni interne su collezioni si consiglia 
+��� Per computazioni interne su collezioni si consiglia 
 invece di usare gli stream
 
 NO DECORATOR FA CAGARE
@@ -57,3 +57,5 @@ sus
 Executable exe=new Executable(ExecutableBuilder.getBuilder().setName("wine").setPath("/usr/bin/wine").setArgs(new String[]{"/home/martin/Desktop/test.exe"}).build());
 
 ma tipo un observer? con logger prob? o allo start
+
+capire cosa deve fare executable, dividi i compiti

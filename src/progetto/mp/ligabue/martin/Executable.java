@@ -4,17 +4,24 @@ public class Executable {
 	public Executable(ExecutableBuilder executableBuilder) {
 	}
 
-	public void setGame(boolean isGame) {
+	private void setName(String name) {
+		this.name = name;
+	}
+
+	private void setGame(boolean isGame) {
 		this.isGame = isGame;
 	}
-	public void getGame() {
-		return isGame;
+
+	private void setACO(boolean aCO) {
+		ACO = aCO;
 	}
-	public void getName() {
-		return name;
+
+	private void setDLSS(boolean dLSS) {
+		DLSS = dLSS;
 	}
-	public void getPath() {
-		return path;
+
+	private void setFSR(boolean fSR) {
+		FSR = fSR;
 	}
 
 	private String name;
@@ -30,7 +37,7 @@ public class Executable {
 		private boolean ACO;
 		private boolean DLSS;
 		private boolean FSR;
-		private Integer age;//?
+		private Integer age;// ?
 
 		public ExecutableBuilder(String name) {
 			this.name = name;
@@ -48,12 +55,15 @@ public class Executable {
 		}
 
 		public Executable build() {
-			return new Executable(this).isGame(isGame).withACO().withDLSS().withFSR();
+			return null;
+			// return new
+			// Executable(this).isGame(isGame).withACO().withDLSS().withFSR();
 		}
 
 		public ExecutableBuilder withAge(Integer age) {
 			if (age <= 0)
-				throw new IllegalArgumentException("age must be positive: " + age);
+				throw new IllegalArgumentException(
+						"age must be positive: " + age);
 			this.age = age;
 			return this;
 		}
