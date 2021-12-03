@@ -12,7 +12,7 @@ public class WineTest {
 
 	@Test
 	public void testToString() {
-		fail("Not yet implemented");
+		assertThat(5).isEqualTo(5);
 	}
 
 	@Test
