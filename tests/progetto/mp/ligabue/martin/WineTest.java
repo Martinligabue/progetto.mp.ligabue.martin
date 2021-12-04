@@ -27,4 +27,20 @@ public class WineTest {
 		assertThat(exe.getName().is("Minecraft"));
 	}
 
+	@Test
+	public void testRunExeComeVoglioIo() {
+		Executable Exe=new Executable();
+		Executable.name("Game").isGame(true);
+		Executable.log?
+				heehee
+		Executable.isRunning assert that true heehheeeeee
+		
+	}
+	@Test
+	public void testListGames() {
+		Executable new
+		Executable new
+		library.getGames();
+		
+	}
 }
