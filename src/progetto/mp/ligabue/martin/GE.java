@@ -1,10 +1,6 @@
 package progetto.mp.ligabue.martin;
 
-public class GE implements Runner {
+public class GE extends Runner {
 
-	@Override
-	public void run(Executable exe) {
-		
-	}
-
+	
 }

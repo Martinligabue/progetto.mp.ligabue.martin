@@ -1,6 +1,6 @@
 package progetto.mp.ligabue.martin;
 
-public class Wine implements Runner {
+public class Wine extends Runner {
 
 	@Override
 	public void run(Executable exe) {

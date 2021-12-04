@@ -1,6 +1,6 @@
 package progetto.mp.ligabue.martin;
 
-public class Proton implements Runner {
+public class Proton extends Runner {
 
     @Override
     public void run(Executable exe) {
