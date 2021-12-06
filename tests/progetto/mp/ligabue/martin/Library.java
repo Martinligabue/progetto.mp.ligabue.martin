@@ -1,5 +1,17 @@
 package progetto.mp.ligabue.martin;
 
-public class Library {
+import java.util.*;
 
+public class Library implements Iterable<Executable> {
+	private List<Executable> exe = new ArrayList<>();
+
+	// this willl have a collection of Executables(?)
+	public boolean hasNext() {
+		return exe.isEmpty();
+	}
+
+	@Override
+	public java.util.Iterator<Executable> iterator() {
+		return exe.iterator();
+	}
 }
