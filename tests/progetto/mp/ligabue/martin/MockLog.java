@@ -14,6 +14,15 @@ public class MockLog {
 	//get last item of files list
 		return files.get(files.size()-1);
 	}
-
+	public void scriviConControllo(String name, String s) {
+		//before writing to files check if string s is used
+		if(!files.contains(s)) {
+			files.add(s);
+			System.out.println(s);
+		}
+		else {
+			System.out.println("Stringa già presente");
+		}
+	}
 	// avvia e controlla per un codice in output?
 }
