@@ -24,5 +24,10 @@ public class MockLog {
 			System.out.println("Stringa già presente");
 		}
 	}
+	//take a random item from the files list
+	public String leggiConControllo() {
+		int i = (int) (Math.random()*files.size());
+		return files.get(i);
+	}
 	// avvia e controlla per un codice in output?
 }
